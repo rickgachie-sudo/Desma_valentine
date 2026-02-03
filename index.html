@@ -144,19 +144,21 @@
     <h1>Hey Desma 😘</h1>
 
     <p>
-      Fredrick amesema...<br>
+      Fredrick here asking...<br>
       <b>“Will you be my Valentine?”</b> 🌹😂
     </p>
 
     <p>
-      Warning ⚠️: Ukikataa nitajam…<br>
-      then I will still love you 😭❤️
+    Warning ⚠️: Only YES is accepted 😌❤️…<br>
+     NO is not an option 😭😂❤️
     </p>
 
     <div class="btns" id="btnArea">
-      <button class="yes" onclick="yesClicked()">YES 😍</button>
-      <button class="no" id="noBtn">NO 🙄</button>
-    </div>
+  <button class="yes" onclick="yesClicked()">YES 😍</button>
+  <button class="no" id="noBtn">NO 🙄</button>
+</div>
+
+<div id="noMsg" class="no-msg">Try pressing NO 😏😂</div>
 
     <!-- Music -->
     <button class="music-btn" id="musicBtn">Play Music 🎶</button>
@@ -174,7 +176,7 @@
   <script>
     /* YES click */
     function yesClicked(){
-      alert("YEEEESSS! 😍❤️ Desma umeamua vizuri 😂🌹\nFredrick is now officially your Valentine 🥰");
+      alert("YEEEESSS! 😍❤️ Desma that's a good choice 😂🌹\nFredrick is now officially your Valentine 🥰");
 
       document.body.innerHTML = `
         <div style="text-align:center;font-family:Arial;padding:60px;">
@@ -193,9 +195,9 @@
       "Eii Desma 😭😂 try again...",
       "NO?? Are you sure? 🥺",
       "Last chance 😤❤️",
-      "Hii NO ni ya nini sasa 😭😂",
-      "Huwezi nikataa hivyo 😭😂"
-    ];
+      “Hii ni Valentine website si uchaguzi 😂💘”
+      “System error ⚠️: NO haipatikani 🤣❤️”
+      “System error ⚠️: NO haipatikani 🤣❤️”]
 
     function randomMsg(){
       return msgs[Math.floor(Math.random() * msgs.length)];
